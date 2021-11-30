@@ -33,5 +33,5 @@ NOTE: To run the application please have .NET 5.0 Runtime installed on your mach
 ![image](https://user-images.githubusercontent.com/63990105/144075712-76a6d2d8-0981-491e-9347-f6beb96dc79c.png)
 
 7. This receipt file could be sent through Discord for others to look at and verify. 
-8. For more than one trade window, you could past the item list on a new line in "archived_trade.txt" and the app will count the additional items as well.
+8. For more than one trade window, you could paste the item list on a new line in "archived_trade.txt" and the app will count the additional items as well.
 9. Verify that the number of items the player sent is the same as what the receipt tells you, sometimes people send one-off items that haven't been accounted for which I will have to add manually.
