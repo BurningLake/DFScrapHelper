@@ -74,6 +74,7 @@ namespace scrap_helper
             itemsToTest.Add(new SW500());
             itemsToTest.Add(new AlphaBull());
             itemsToTest.Add(new Magnum475());
+            itemsToTest.Add(new Greyhawk());
 
             // Rifles
             itemsToTest.Add(new MSG9());
@@ -87,6 +88,7 @@ namespace scrap_helper
             // Shotguns
             itemsToTest.Add(new USAN12());
             itemsToTest.Add(new AA12());
+            itemsToTest.Add(new Painshot());
 
             // Machine Guns
             itemsToTest.Add(new AK47());
@@ -126,6 +128,9 @@ namespace scrap_helper
             itemsToTest.Add(new CowboyHat());
             itemsToTest.Add(new BaseballHelmet());
             itemsToTest.Add(new FlyingGoggles());
+            itemsToTest.Add(new SurgicalHat());
+            itemsToTest.Add(new Sunglasses());
+            itemsToTest.Add(new Bandana());
 
             // search for items
             foreach(IItem item in itemsToTest)
