@@ -4,7 +4,7 @@ namespace ScrapItems
     {
         public string getName()
         {
-            return "sabre";
+            return "sabre_";
         }
 
         public int getPrice()
