@@ -56,6 +56,7 @@ namespace scrap_helper
             itemsToTest.Add(new Scalpel());
             itemsToTest.Add(new Shovel());
             itemsToTest.Add(new TrenchKnife());
+            itemsToTest.Add(new WoodAxe());
             itemsToTest.Add(new Sabre());
             itemsToTest.Add(new SledgeHammer());
             itemsToTest.Add(new Katana());
@@ -91,6 +92,7 @@ namespace scrap_helper
             itemsToTest.Add(new Painshot());
 
             // Machine Guns
+            itemsToTest.Add(new XM8());
             itemsToTest.Add(new AK47());
             itemsToTest.Add(new K50M());
             itemsToTest.Add(new FMMitrail());
