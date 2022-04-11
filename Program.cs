@@ -56,6 +56,7 @@ namespace scrap_helper
             itemsToTest.Add(new Scalpel());
             itemsToTest.Add(new Shovel());
             itemsToTest.Add(new TrenchKnife());
+            itemsToTest.Add(new Machete());
             itemsToTest.Add(new WoodAxe());
             itemsToTest.Add(new Sabre());
             itemsToTest.Add(new SledgeHammer());
@@ -87,6 +88,7 @@ namespace scrap_helper
             itemsToTest.Add(new Ironsight());
 
             // Shotguns
+            itemsToTest.Add(new Sweeper());
             itemsToTest.Add(new USAN12());
             itemsToTest.Add(new AA12());
             itemsToTest.Add(new Painshot());
@@ -105,6 +107,7 @@ namespace scrap_helper
             itemsToTest.Add(new Hammerhead47());
 
             // Explosives
+            itemsToTest.Add(new RG6());
             itemsToTest.Add(new FalconMM1());
             itemsToTest.Add(new XM25());
             itemsToTest.Add(new PAW20());
