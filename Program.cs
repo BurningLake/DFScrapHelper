@@ -56,9 +56,12 @@ namespace scrap_helper
             itemsToTest.Add(new Scalpel());
             itemsToTest.Add(new Shovel());
             itemsToTest.Add(new TrenchKnife());
+            itemsToTest.Add(new RonanPro());
             itemsToTest.Add(new Machete());
             itemsToTest.Add(new WoodAxe());
             itemsToTest.Add(new Sabre());
+            itemsToTest.Add(new SteelMS800());
+            itemsToTest.Add(new Kukri());
             itemsToTest.Add(new SledgeHammer());
             itemsToTest.Add(new Katana());
             itemsToTest.Add(new BattleAxe());
@@ -80,6 +83,7 @@ namespace scrap_helper
 
             // Rifles
             itemsToTest.Add(new MSG9());
+            itemsToTest.Add(new SIC550());
             itemsToTest.Add(new HawkOP96());
             itemsToTest.Add(new DragonSVD());
             itemsToTest.Add(new M82A2());
@@ -136,6 +140,7 @@ namespace scrap_helper
             itemsToTest.Add(new SurgicalHat());
             itemsToTest.Add(new Sunglasses());
             itemsToTest.Add(new Bandana());
+            itemsToTest.Add(new BioHelmet());
 
             // search for items
             foreach(IItem item in itemsToTest)
