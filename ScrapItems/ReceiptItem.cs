@@ -19,7 +19,7 @@ public class ReceiptItem
 
     public string printLine()
     {
-        string textOutput = "===== " + name + " =====\nPrice Per Unit: $" + String.Format("{0:n0}", pricerPerUnit)+ "\nNumber of Non-MCs: " + amount + "\nNumber of MCs: " + amountMC + "\nScrap Value: $" + String.Format("{0:n0}", totalScrap) + "\n";
+        string textOutput = "===== " + name + " =====\r\nPrice Per Unit: $" + String.Format("{0:n0}", pricerPerUnit)+ "\r\nNumber of Non-MCs: " + amount + "\r\nNumber of MCs: " + amountMC + "\r\nScrap Value: $" + String.Format("{0:n0}", totalScrap) + "\r\n";
 
         return textOutput;
     }
