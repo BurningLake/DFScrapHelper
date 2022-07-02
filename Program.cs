@@ -141,6 +141,7 @@ namespace scrap_helper
             itemsToTest.Add(new Sunglasses());
             itemsToTest.Add(new Bandana());
             itemsToTest.Add(new BioHelmet());
+            itemsToTest.Add(new SkiMask());
 
             // search for items
             foreach(IItem item in itemsToTest)
