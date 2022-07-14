@@ -98,6 +98,7 @@ namespace scrap_helper
             itemsToTest.Add(new Painshot());
 
             // Machine Guns
+            itemsToTest.Add(new ChicagoTypewriter());
             itemsToTest.Add(new XM8());
             itemsToTest.Add(new AK47());
             itemsToTest.Add(new K50M());
@@ -142,6 +143,10 @@ namespace scrap_helper
             itemsToTest.Add(new Bandana());
             itemsToTest.Add(new BioHelmet());
             itemsToTest.Add(new SkiMask());
+            itemsToTest.Add(new ConstructionHelmet());
+            itemsToTest.Add(new FlyingCap());
+            itemsToTest.Add(new FiremanHelmet());
+            itemsToTest.Add(new OfficerCap());
 
             // search for items
             foreach(IItem item in itemsToTest)
