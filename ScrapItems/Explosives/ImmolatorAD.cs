@@ -1,20 +1,20 @@
 namespace ScrapItems
 {
-    public class Sabre : IItem
+    public class ImmolatorAD : IItem
     {
         public string getName()
         {
-            return "sabre";
+            return "immolator";
         }
 
         public int getPrice()
         {
-            return 9650;
+            return 57650;
         }
 
         public override string ToString()
         {
-            return "Sabre";
+            return "Immolator AD";
         }
     }
 }

@@ -116,6 +116,7 @@ namespace scrap_helper
             itemsToTest.Add(new FalconMM1());
             itemsToTest.Add(new XM25());
             itemsToTest.Add(new PAW20());
+            itemsToTest.Add(new ImmolatorAD());
 
             // Armor
             itemsToTest.Add(new MeshRX2());
@@ -126,6 +127,8 @@ namespace scrap_helper
             itemsToTest.Add(new ExterminatorMeshGT());
             itemsToTest.Add(new ExterminatorReactive());
             itemsToTest.Add(new ExterminatorReactiveXT());
+            itemsToTest.Add(new NomadMesh());
+            itemsToTest.Add(new BioReactive());
 
             // Other Stuff
             itemsToTest.Add(new Nero5A());
@@ -147,6 +150,10 @@ namespace scrap_helper
             itemsToTest.Add(new FlyingCap());
             itemsToTest.Add(new FiremanHelmet());
             itemsToTest.Add(new OfficerCap());
+            itemsToTest.Add(new SurgicalMask());
+            itemsToTest.Add(new NomadHelmet());
+            itemsToTest.Add(new Turban());
+            itemsToTest.Add(new TacticalGoggles());
 
             // search for items
             foreach(IItem item in itemsToTest)

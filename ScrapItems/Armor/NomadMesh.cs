@@ -1,20 +1,20 @@
 namespace ScrapItems
 {
-    public class Sabre : IItem
+    public class NomadMesh : IItem
     {
         public string getName()
         {
-            return "sabre";
+            return "nomadmesh";
         }
 
         public int getPrice()
         {
-            return 9650;
+            return 128250;
         }
 
         public override string ToString()
         {
-            return "Sabre";
+            return "Nomad Mesh";
         }
     }
 }
